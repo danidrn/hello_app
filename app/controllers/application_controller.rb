@@ -5,6 +5,11 @@ class ApplicationController < ActionController::Base
     render html: "¡Hola, mundo!"
   end 
   
+  def olar
+    render html: "Olar, mundíneo fofíneoooo!"
+  end 
+  
+  
   def goodbye
     render html: "goodbye, world!"
   end 
